@@ -47,7 +47,7 @@ A modern, production-ready React + Next.js application that provides personalize
    http://localhost:3000
    ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── app/                          # Next.js App Router pages
