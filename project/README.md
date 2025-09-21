@@ -257,7 +257,7 @@ xl: 1280px  /* Extra large devices */
 - **Data Validation**: Zod schemas for type safety
 - **XSS Protection**: Built-in Next.js protections
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
