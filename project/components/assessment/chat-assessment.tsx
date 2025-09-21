@@ -122,7 +122,7 @@ export function ChatAssessment({ onComplete }: ChatAssessmentProps) {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
             >
-              See Your Top 10 Career Matches
+              See Your Top Career Matches
             </Button>
           </motion.div>
         </div>
