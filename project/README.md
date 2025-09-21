@@ -47,7 +47,7 @@ A modern, production-ready React + Next.js application that provides personalize
    http://localhost:3000
    ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── app/                          # Next.js App Router pages
@@ -257,7 +257,7 @@ xl: 1280px  /* Extra large devices */
 - **Data Validation**: Zod schemas for type safety
 - **XSS Protection**: Built-in Next.js protections
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`

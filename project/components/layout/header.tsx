@@ -49,6 +49,7 @@ export function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+{/*             <Link 
             {/* <Link 
               href="/dashboard" 
               className="flex items-center space-x-2 text-gray-600 hover:text-primary transition-colors"
