@@ -70,7 +70,6 @@ export function CareerCard({ career, onSelect, index }: CareerCardProps) {
         {/* Stats */}
         <div className="space-y-2 mb-6">
           <div className="flex items-center text-sm text-gray-700">
-            <DollarSign className="w-4 h-4 mr-2 text-green-600" />
             <span>{career.salary}</span>
           </div>
           <div className="flex items-center text-sm text-gray-700">
