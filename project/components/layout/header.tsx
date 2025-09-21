@@ -49,13 +49,13 @@ export function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href="/dashboard" 
               className="flex items-center space-x-2 text-gray-600 hover:text-primary transition-colors"
             >
               <Home className="w-4 h-4" />
               <span>Dashboard</span>
-            </Link>
+            </Link> */}
             <Link 
               href="/career-tree" 
               className="flex items-center space-x-2 text-gray-600 hover:text-primary transition-colors"

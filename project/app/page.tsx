@@ -90,7 +90,7 @@ export default function HomePage() {
             </div>
           </motion.div>
 
-          {/* Hero Image/Video placeholder */}
+          {/* Hero Video */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -98,12 +98,20 @@ export default function HomePage() {
             className="max-w-4xl mx-auto"
           >
             <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
-              <div className="aspect-video bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                <div className="text-center text-white">
-                  <Play className="w-16 h-16 mx-auto mb-4 opacity-80" />
-                  <p className="text-xl font-semibold">See How It Works</p>
-                  <p className="text-blue-100">2-minute demo video</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden relative">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                >
+                  <source src="/hero.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {/* <div className="absolute inset-0 bg-black/20 flex items-center justify-center hover:bg-black/30 transition-colors cursor-pointer">
+                  <Play className="w-16 h-16 text-white opacity-80" />
+                </div> */}
               </div>
             </div>
           </motion.div>
